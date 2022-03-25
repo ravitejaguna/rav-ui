@@ -26,7 +26,7 @@ export function MSALInterceptorConfigFactory(): MsalInterceptorConfiguration {
     protectedResourceMap
   };
 }
-
+//as
 @NgModule({
   declarations: [
     AppComponent
