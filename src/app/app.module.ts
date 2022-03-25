@@ -14,6 +14,7 @@ export function MSALInstanceFactory(): IPublicClientApplication {
       redirectUri: 'https://ravifrontend.azurewebsites.net'    }
   });
 }
+//test
 
 export function MSALInterceptorConfigFactory(): MsalInterceptorConfiguration {
   const protectedResourceMap = new Map<string, Array<string>>();
