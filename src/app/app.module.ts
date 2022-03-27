@@ -9,7 +9,7 @@ export function MSALInstanceFactory(): IPublicClientApplication {
   return new PublicClientApplication({
     auth: {
       clientId: '518ad764-2bbc-4747-a5c2-1a52ca8bfbae',
-      //authority: 'https://login.microsoftonline.com/1b19c4ec-4080-43ea-b363-e39c87cbe849',
+      authority: 'https://login.microsoftonline.com/1b19c4ec-4080-43ea-b363-e39c87cbe849',
       //authority: 'https://login.microsoftonline.com/common',      
       redirectUri: 'https://ravifrontend.azurewebsites.net'    }
   });
