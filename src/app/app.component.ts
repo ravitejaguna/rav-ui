@@ -62,7 +62,7 @@ export class AppComponent implements OnInit {
   }
 
   sayHello () {
-    this.http.get("http://ravibackend.azurewebsites.net/home").subscribe( resp  => {
+    this.http.get("https://ravibackend.azurewebsites.net/home").subscribe( resp  => {
       this.apiResponse = JSON.stringify(resp)
     })
   }
