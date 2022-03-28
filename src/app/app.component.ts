@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { AuthenticationResult } from '@azure/msal-browser';
 import { MsalService } from '@azure/msal-angular';
 import { Component, OnInit } from '@angular/core';
-
+//grt
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -67,4 +67,3 @@ export class AppComponent implements OnInit {
     })
   }
 }
-//guna
